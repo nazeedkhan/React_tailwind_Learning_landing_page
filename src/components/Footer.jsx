@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer className="bg-red-700">
         <div className=" flex justify-center items-center">
-          <div className="grid grid-cols-5 p-4 text-xl mx-8 w-[70%]">
+          <div className="grid grid-cols-5 gap-1 p-4 text-xl mx-8 w-[90%] max-[780px]:w-[95%] max-[780px]:grid-cols-3 max-[580px]:grid-cols-2 gap-4">
             <h1 className="text-4xl font-bold">
               <span className="text-white">B</span>
               <span className="text-black/80">rand</span>
@@ -46,12 +46,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full bg-white h-0.5"></div>
-        <div className="flex justify-between mx-16 items-center">
-          <p className="font-semibold text-white">
+        <div className="flex justify-between mx-16 max-[720px]:mx-4 items-center gap-2">
+          <p className="font-semibold text-white max-[420px]:font-normal max-[420px]:my-1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
             provident?
           </p>
-          <div className="font-bold p-4 bg-black text-red-700 rounded-4xl my-2">LOGO</div>
+          <div className="font-bold p-4 max-[420px]:p-2 bg-black text-red-700 rounded-4xl my-2">LOGO</div>
         </div>
       </footer>
     </>
