@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer className="bg-red-700">
         <div className=" flex justify-center items-center">
-          <div className="grid grid-cols-5 gap-1 p-4 text-xl mx-8 w-[90%] max-[780px]:w-[95%] max-[780px]:grid-cols-3 max-[580px]:grid-cols-2 gap-4">
+          <div className="grid grid-cols-5 p-4 text-xl mx-8 w-[90%] max-[780px]:w-[95%] max-[780px]:grid-cols-3 max-[580px]:grid-cols-2 gap-4">
             <h1 className="text-4xl font-bold">
               <span className="text-white">B</span>
               <span className="text-black/80">rand</span>
